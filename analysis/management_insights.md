@@ -2,7 +2,7 @@
 
 ## Executive readout
 
-The company is growing recurring revenue, but the growth is not yet translating into durable cash strength.
+The model indicates recurring-revenue growth accompanied by continued cash consumption.
 
 - June 2026 MRR reached **$430K**, equivalent to **$5.16M ARR**.
 - Year-to-date revenue is **$59K above budget**, or roughly **2.5% favorable**.

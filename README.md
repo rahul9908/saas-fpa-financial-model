@@ -9,7 +9,7 @@ Master-level SaaS financial planning, forecasting, unit economics, and liquidity
 
 ## Executive overview
 
-This project models a fictional B2B SaaS company using 48 months of synthetic data from January 2023 through December 2026. Historical actuals run through June 2026; July through December 2026 is a rolling forecast.
+Developed a 48-month driver-based FP&A model for a fictional B2B SaaS company covering January 2023 through December 2026. Historical actuals run through June 2026; July through December 2026 is a rolling forecast.
 
 The model answers the questions an FP&A team should be able to answer every month:
 
@@ -19,7 +19,7 @@ The model answers the questions an FP&A team should be able to answer every mont
 - How do hiring and cost drivers affect cash runway?
 - What is the probability that the company needs funding before year-end?
 
-All company names, customers, employees, and financial values are synthetic and intended for portfolio demonstration only.
+All company names, customers, employees, and financial values are synthetic and intended for case-study demonstration only.
 
 ## Executive dashboard preview
 
@@ -29,13 +29,13 @@ The workbook opens with an executive view linking recurring revenue, budget perf
 
 The full model, scenario controls, supporting schedules, audit checks, and management outputs are available in the [`deliverables`](deliverables/) folder.
 
-## What the model says in human terms
+## Management interpretation
 
-The company is growing, but it is buying that growth with cash. June MRR is **$430K** and ARR is **$5.16M**, while year-to-date revenue is **$59K above budget**. The more important signal is retention: GRR and NRR are both **98.4%**, which means the existing customer base is slightly shrinking after churn and expansion are combined. New logo acquisition is doing the heavy lifting.
+The analysis indicates recurring-revenue growth accompanied by material cash consumption. June MRR is **$430K** and ARR is **$5.16M**, while year-to-date revenue is **$59K above budget**. GRR and NRR are both **98.4%**, indicating modest contraction within the existing customer base after churn and expansion. New-customer acquisition remains the primary contributor to topline growth.
 
 The unit economics are attractive at **5.7x LTV/CAC**, but the operating model still produces a **$3.57M YTD loss**. Base-case cash falls from **$4.61M in June to $0.93M in December**, and the Monte Carlo view estimates a **59.7% probability of ending below $1M**. The practical management question is therefore funding timing and cash-buffer discipline, not whether the business can produce revenue.
 
-The recommended conversation is simple: diagnose which customer segments are causing sub-100% NRR, tie hiring to measurable capacity or quota coverage, separate cloud usage growth from unit-cost inflation, and define the cash threshold that triggers financing work. See [`analysis/management_insights.md`](analysis/management_insights.md) for the full interpretation and model guardrails.
+Recommended management actions are to identify the segments driving sub-100% NRR, link hiring decisions to capacity or quota coverage, separate cloud usage growth from unit-cost inflation, and establish a cash threshold that triggers financing activity. See [`analysis/management_insights.md`](analysis/management_insights.md) for the detailed interpretation and model guardrails.
 
 ## Key modeled outputs
 
@@ -67,4 +67,4 @@ The recommended conversation is simple: diagnose which customer segments are cau
 2. Run the workbook and presentation builders in `build/`.
 3. Load the CSV files or SQLite tables into Power BI and apply the supplied relationships and measures.
 
-All company names and values are synthetic and intended for portfolio demonstration only.
+All company names and values are synthetic and intended for case-study demonstration only.
