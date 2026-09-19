@@ -1,0 +1,241 @@
+month,category,budget,actual,cost_type
+2023-01-01,Marketing,90000.0,96347.05,Variable
+2023-01-01,Cloud & API,14861.15,17194.55,Variable
+2023-01-01,Software,26000.0,28176.08,Fixed
+2023-01-01,Office & Admin,31000.0,32335.15,Fixed
+2023-01-01,Professional Services,18000.0,18341.94,Fixed
+2023-02-01,Marketing,91080.0,92636.06,Variable
+2023-02-01,Cloud & API,15320.1,16912.23,Variable
+2023-02-01,Software,26312.0,27224.84,Fixed
+2023-02-01,Office & Admin,31372.0,32886.64,Fixed
+2023-02-01,Professional Services,18216.0,20069.62,Fixed
+2023-03-01,Marketing,92160.0,107534.07,Variable
+2023-03-01,Cloud & API,15796.91,17614.49,Variable
+2023-03-01,Software,26624.0,28086.27,Fixed
+2023-03-01,Office & Admin,31744.0,30473.09,Fixed
+2023-03-01,Professional Services,18432.0,18666.23,Fixed
+2023-04-01,Marketing,93240.0,98850.0,Variable
+2023-04-01,Cloud & API,16325.71,16780.59,Variable
+2023-04-01,Software,26936.0,29314.91,Fixed
+2023-04-01,Office & Admin,32116.0,30343.99,Fixed
+2023-04-01,Professional Services,18648.0,20504.42,Fixed
+2023-05-01,Marketing,94320.0,99048.52,Variable
+2023-05-01,Cloud & API,16865.9,19671.71,Variable
+2023-05-01,Software,27248.0,25481.25,Fixed
+2023-05-01,Office & Admin,32488.0,29966.14,Fixed
+2023-05-01,Professional Services,18864.0,20256.03,Fixed
+2023-06-01,Marketing,95400.0,95038.31,Variable
+2023-06-01,Cloud & API,17261.47,19535.09,Variable
+2023-06-01,Software,27560.0,29331.53,Fixed
+2023-06-01,Office & Admin,32860.0,34400.25,Fixed
+2023-06-01,Professional Services,19080.0,19260.17,Fixed
+2023-07-01,Marketing,96480.0,107423.37,Variable
+2023-07-01,Cloud & API,17842.27,18116.76,Variable
+2023-07-01,Software,27872.0,28425.62,Fixed
+2023-07-01,Office & Admin,33232.0,30572.28,Fixed
+2023-07-01,Professional Services,19296.0,21768.91,Fixed
+2023-08-01,Marketing,97560.0,101334.49,Variable
+2023-08-01,Cloud & API,18330.46,19315.22,Variable
+2023-08-01,Software,28184.0,29077.65,Fixed
+2023-08-01,Office & Admin,33604.0,33034.02,Fixed
+2023-08-01,Professional Services,19512.0,20206.66,Fixed
+2023-09-01,Marketing,98640.0,97894.12,Variable
+2023-09-01,Cloud & API,18691.87,21744.55,Variable
+2023-09-01,Software,28496.0,30369.0,Fixed
+2023-09-01,Office & Admin,33976.0,29557.76,Fixed
+2023-09-01,Professional Services,19728.0,21500.44,Fixed
+2023-10-01,Marketing,99720.0,106306.54,Variable
+2023-10-01,Cloud & API,19093.9,21202.65,Variable
+2023-10-01,Software,28808.0,30779.44,Fixed
+2023-10-01,Office & Admin,34348.0,32501.76,Fixed
+2023-10-01,Professional Services,19944.0,20812.89,Fixed
+2023-11-01,Marketing,100800.0,107202.61,Variable
+2023-11-01,Cloud & API,19599.94,22817.4,Variable
+2023-11-01,Software,29120.0,29177.48,Fixed
+2023-11-01,Office & Admin,34720.0,35249.41,Fixed
+2023-11-01,Professional Services,20160.0,21006.99,Fixed
+2023-12-01,Marketing,101880.0,111974.44,Variable
+2023-12-01,Cloud & API,20140.13,21443.44,Variable
+2023-12-01,Software,29432.0,29800.71,Fixed
+2023-12-01,Office & Admin,35092.0,33486.29,Fixed
+2023-12-01,Professional Services,20376.0,22215.51,Fixed
+2024-01-01,Marketing,102960.0,117178.44,Variable
+2024-01-01,Cloud & API,21338.52,24211.13,Variable
+2024-01-01,Software,29744.0,29478.56,Fixed
+2024-01-01,Office & Admin,35464.0,34509.33,Fixed
+2024-01-01,Professional Services,20592.0,21772.08,Fixed
+2024-02-01,Marketing,104040.0,115687.13,Variable
+2024-02-01,Cloud & API,21885.83,25083.42,Variable
+2024-02-01,Software,30056.0,35630.59,Fixed
+2024-02-01,Office & Admin,35836.0,32960.49,Fixed
+2024-02-01,Professional Services,20808.0,21901.11,Fixed
+2024-03-01,Marketing,105120.0,111183.55,Variable
+2024-03-01,Cloud & API,22564.36,25529.23,Variable
+2024-03-01,Software,30368.0,31894.31,Fixed
+2024-03-01,Office & Admin,36208.0,36907.12,Fixed
+2024-03-01,Professional Services,21024.0,20802.94,Fixed
+2024-04-01,Marketing,106200.0,115395.62,Variable
+2024-04-01,Cloud & API,23383.18,26629.59,Variable
+2024-04-01,Software,30680.0,33051.06,Fixed
+2024-04-01,Office & Admin,36580.0,34408.65,Fixed
+2024-04-01,Professional Services,21240.0,22580.65,Fixed
+2024-05-01,Marketing,107280.0,113555.24,Variable
+2024-05-01,Cloud & API,24112.84,27367.87,Variable
+2024-05-01,Software,30992.0,32646.82,Fixed
+2024-05-01,Office & Admin,36952.0,35362.22,Fixed
+2024-05-01,Professional Services,21456.0,24006.33,Fixed
+2024-06-01,Marketing,108360.0,114467.79,Variable
+2024-06-01,Cloud & API,24956.83,26997.57,Variable
+2024-06-01,Software,31304.0,29897.93,Fixed
+2024-06-01,Office & Admin,37324.0,36633.95,Fixed
+2024-06-01,Professional Services,21672.0,21817.45,Fixed
+2024-07-01,Marketing,109440.0,120336.77,Variable
+2024-07-01,Cloud & API,25733.62,27873.47,Variable
+2024-07-01,Software,31616.0,33592.99,Fixed
+2024-07-01,Office & Admin,37696.0,36724.98,Fixed
+2024-07-01,Professional Services,21888.0,21420.89,Fixed
+2024-08-01,Marketing,110520.0,112899.36,Variable
+2024-08-01,Cloud & API,26505.31,29117.21,Variable
+2024-08-01,Software,31928.0,36715.75,Fixed
+2024-08-01,Office & Admin,38068.0,38148.97,Fixed
+2024-08-01,Professional Services,22104.0,24528.7,Fixed
+2024-09-01,Marketing,111600.0,114619.29,Variable
+2024-09-01,Cloud & API,27124.91,30633.18,Variable
+2024-09-01,Software,32240.0,33136.15,Fixed
+2024-09-01,Office & Admin,38440.0,37286.25,Fixed
+2024-09-01,Professional Services,22320.0,23166.92,Fixed
+2024-10-01,Marketing,112680.0,118345.03,Variable
+2024-10-01,Cloud & API,27768.09,32489.96,Variable
+2024-10-01,Software,32552.0,35887.37,Fixed
+2024-10-01,Office & Admin,38812.0,40216.86,Fixed
+2024-10-01,Professional Services,22536.0,23382.61,Fixed
+2024-11-01,Marketing,113760.0,124095.23,Variable
+2024-11-01,Cloud & API,28399.47,30413.87,Variable
+2024-11-01,Software,32864.0,33154.85,Fixed
+2024-11-01,Office & Admin,39184.0,37133.82,Fixed
+2024-11-01,Professional Services,22752.0,23977.64,Fixed
+2024-12-01,Marketing,114840.0,132655.98,Variable
+2024-12-01,Cloud & API,29000.61,29750.54,Variable
+2024-12-01,Software,33176.0,33223.77,Fixed
+2024-12-01,Office & Admin,39556.0,39579.16,Fixed
+2024-12-01,Professional Services,22968.0,24374.79,Fixed
+2025-01-01,Marketing,115920.0,120516.14,Variable
+2025-01-01,Cloud & API,30850.92,35057.76,Variable
+2025-01-01,Software,33488.0,35008.12,Fixed
+2025-01-01,Office & Admin,39928.0,36996.0,Fixed
+2025-01-01,Professional Services,23184.0,25142.82,Fixed
+2025-02-01,Marketing,117000.0,118371.57,Variable
+2025-02-01,Cloud & API,31780.15,33733.19,Variable
+2025-02-01,Software,33800.0,37555.48,Fixed
+2025-02-01,Office & Admin,40300.0,40700.75,Fixed
+2025-02-01,Professional Services,23400.0,24654.5,Fixed
+2025-03-01,Marketing,118080.0,129587.66,Variable
+2025-03-01,Cloud & API,32801.68,35552.86,Variable
+2025-03-01,Software,34112.0,34422.62,Fixed
+2025-03-01,Office & Admin,40672.0,40280.63,Fixed
+2025-03-01,Professional Services,23616.0,23620.41,Fixed
+2025-04-01,Marketing,119160.0,134208.81,Variable
+2025-04-01,Cloud & API,33658.87,33824.79,Variable
+2025-04-01,Software,34424.0,34481.04,Fixed
+2025-04-01,Office & Admin,41044.0,38175.68,Fixed
+2025-04-01,Professional Services,23832.0,25198.84,Fixed
+2025-05-01,Marketing,120240.0,133552.62,Variable
+2025-05-01,Cloud & API,34774.33,39548.47,Variable
+2025-05-01,Software,34736.0,33470.99,Fixed
+2025-05-01,Office & Admin,41416.0,39837.61,Fixed
+2025-05-01,Professional Services,24048.0,25690.24,Fixed
+2025-06-01,Marketing,121320.0,134809.9,Variable
+2025-06-01,Cloud & API,35713.27,39324.39,Variable
+2025-06-01,Software,35048.0,33901.72,Fixed
+2025-06-01,Office & Admin,41788.0,40623.44,Fixed
+2025-06-01,Professional Services,24264.0,26036.45,Fixed
+2025-07-01,Marketing,122400.0,128802.7,Variable
+2025-07-01,Cloud & API,36671.32,36503.84,Variable
+2025-07-01,Software,35360.0,38480.17,Fixed
+2025-07-01,Office & Admin,42160.0,41504.88,Fixed
+2025-07-01,Professional Services,24480.0,26130.2,Fixed
+2025-08-01,Marketing,123480.0,133039.61,Variable
+2025-08-01,Cloud & API,37574.52,41048.75,Variable
+2025-08-01,Software,35672.0,34036.0,Fixed
+2025-08-01,Office & Admin,42532.0,38880.72,Fixed
+2025-08-01,Professional Services,24696.0,24265.13,Fixed
+2025-09-01,Marketing,124560.0,139448.6,Variable
+2025-09-01,Cloud & API,38290.63,42258.58,Variable
+2025-09-01,Software,35984.0,34828.23,Fixed
+2025-09-01,Office & Admin,42904.0,44680.98,Fixed
+2025-09-01,Professional Services,24912.0,27237.74,Fixed
+2025-10-01,Marketing,125640.0,126334.44,Variable
+2025-10-01,Cloud & API,39086.84,45543.74,Variable
+2025-10-01,Software,36296.0,37430.04,Fixed
+2025-10-01,Office & Admin,43276.0,39744.32,Fixed
+2025-10-01,Professional Services,25128.0,25186.5,Fixed
+2025-11-01,Marketing,126720.0,137159.81,Variable
+2025-11-01,Cloud & API,39919.64,44686.81,Variable
+2025-11-01,Software,36608.0,37701.41,Fixed
+2025-11-01,Office & Admin,43648.0,40145.64,Fixed
+2025-11-01,Professional Services,25344.0,29107.52,Fixed
+2025-12-01,Marketing,127800.0,130204.62,Variable
+2025-12-01,Cloud & API,40548.74,46945.64,Variable
+2025-12-01,Software,36920.0,41711.9,Fixed
+2025-12-01,Office & Admin,44020.0,40370.05,Fixed
+2025-12-01,Professional Services,25560.0,25641.27,Fixed
+2026-01-01,Marketing,128880.0,137683.61,Variable
+2026-01-01,Cloud & API,43015.48,46462.6,Variable
+2026-01-01,Software,37232.0,36769.83,Fixed
+2026-01-01,Office & Admin,44392.0,45578.93,Fixed
+2026-01-01,Professional Services,25776.0,27930.96,Fixed
+2026-02-01,Marketing,129960.0,127797.7,Variable
+2026-02-01,Cloud & API,44406.06,48128.64,Variable
+2026-02-01,Software,37544.0,38217.93,Fixed
+2026-02-01,Office & Admin,44764.0,42804.3,Fixed
+2026-02-01,Professional Services,25992.0,29053.59,Fixed
+2026-03-01,Marketing,131040.0,152524.22,Variable
+2026-03-01,Cloud & API,45675.88,48210.42,Variable
+2026-03-01,Software,37856.0,43593.53,Fixed
+2026-03-01,Office & Admin,45136.0,43489.07,Fixed
+2026-03-01,Professional Services,26208.0,26070.33,Fixed
+2026-04-01,Marketing,132120.0,134115.75,Variable
+2026-04-01,Cloud & API,47201.56,46529.04,Variable
+2026-04-01,Software,38168.0,37997.74,Fixed
+2026-04-01,Office & Admin,45508.0,44765.55,Fixed
+2026-04-01,Professional Services,26424.0,27267.23,Fixed
+2026-05-01,Marketing,133200.0,139145.47,Variable
+2026-05-01,Cloud & API,48366.11,52667.16,Variable
+2026-05-01,Software,38480.0,41304.36,Fixed
+2026-05-01,Office & Admin,45880.0,45172.88,Fixed
+2026-05-01,Professional Services,26640.0,29689.92,Fixed
+2026-06-01,Marketing,134280.0,134066.21,Variable
+2026-06-01,Cloud & API,49491.09,52318.63,Variable
+2026-06-01,Software,38792.0,36375.5,Fixed
+2026-06-01,Office & Admin,46252.0,45490.35,Fixed
+2026-06-01,Professional Services,26856.0,27147.48,Fixed
+2026-07-01,Marketing,135360.0,,Variable
+2026-07-01,Cloud & API,50668.27,,Variable
+2026-07-01,Software,39104.0,,Fixed
+2026-07-01,Office & Admin,46624.0,,Fixed
+2026-07-01,Professional Services,27072.0,,Fixed
+2026-08-01,Marketing,136440.0,,Variable
+2026-08-01,Cloud & API,51742.75,,Variable
+2026-08-01,Software,39416.0,,Fixed
+2026-08-01,Office & Admin,46996.0,,Fixed
+2026-08-01,Professional Services,27288.0,,Fixed
+2026-09-01,Marketing,137520.0,,Variable
+2026-09-01,Cloud & API,52791.99,,Variable
+2026-09-01,Software,39728.0,,Fixed
+2026-09-01,Office & Admin,47368.0,,Fixed
+2026-09-01,Professional Services,27504.0,,Fixed
+2026-10-01,Marketing,138600.0,,Variable
+2026-10-01,Cloud & API,53841.23,,Variable
+2026-10-01,Software,40040.0,,Fixed
+2026-10-01,Office & Admin,47740.0,,Fixed
+2026-10-01,Professional Services,27720.0,,Fixed
+2026-11-01,Marketing,139680.0,,Variable
+2026-11-01,Cloud & API,54948.13,,Variable
+2026-11-01,Software,40352.0,,Fixed
+2026-11-01,Office & Admin,48112.0,,Fixed
+2026-11-01,Professional Services,27936.0,,Fixed
+2026-12-01,Marketing,140760.0,,Variable
+2026-12-01,Cloud & API,56112.68,,Variable
+2026-12-01,Software,40664.0,,Fixed
+2026-12-01,Office & Admin,48484.0,,Fixed
+2026-12-01,Professional Services,28152.0,,Fixed

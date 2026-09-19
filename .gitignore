@@ -1,0 +1,16 @@
+# Local build and validation artifacts
+build/node_modules/
+build/**/candidate.pptx
+build/**/*.inspect.ndjson
+build/**/*.png
+build/**/*.json
+.chart-data-*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

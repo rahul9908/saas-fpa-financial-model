@@ -1,0 +1,51 @@
+-- Core SaaS FP&A measures
+Revenue Actual = SUM(financials_monthly[actual_revenue])
+Revenue Budget = SUM(financials_monthly[budget_revenue])
+Revenue Forecast = SUM(financials_monthly[forecast_revenue])
+Revenue Variance = [Revenue Actual] - [Revenue Budget]
+Revenue Variance % = DIVIDE([Revenue Variance], [Revenue Budget])
+
+MRR = SUM(subscriptions[mrr])
+ARR = [MRR] * 12
+Ending Customers = SUM(subscriptions[ending_customers])
+New Customers = SUM(subscriptions[new_customers])
+Churned Customers = SUM(subscriptions[churned_customers])
+Gross Logo Churn % = DIVIDE([Churned Customers], SUM(subscriptions[starting_customers]))
+ARPC = DIVIDE([MRR], [Ending Customers])
+
+COGS Actual = SUM(financials_monthly[actual_cogs])
+Gross Profit = [Revenue Actual] - [COGS Actual]
+Gross Margin % = DIVIDE([Gross Profit], [Revenue Actual])
+Payroll Actual = SUM(financials_monthly[actual_payroll])
+Other Opex Actual = SUM(financials_monthly[actual_opex])
+Operating Expense Actual = [Payroll Actual] + [Other Opex Actual]
+Operating Loss = [Gross Profit] - [Operating Expense Actual]
+
+Expense Budget = SUM(financials_monthly[budget_cogs]) + SUM(financials_monthly[budget_payroll]) + SUM(financials_monthly[budget_opex])
+Expense Actual = [COGS Actual] + [Payroll Actual] + [Other Opex Actual]
+Expense Variance Favorable = [Expense Budget] - [Expense Actual]
+Expense Variance % = DIVIDE([Expense Variance Favorable], [Expense Budget])
+
+Ending Cash = MAX(financials_monthly[ending_cash])
+Net Cash Flow = SUM(financials_monthly[forecast_revenue]) - SUM(financials_monthly[forecast_cogs]) - SUM(financials_monthly[forecast_payroll]) - SUM(financials_monthly[forecast_opex]) - SUM(financials_monthly[capex]) + SUM(financials_monthly[financing])
+Monthly Burn = MAX(0, -[Net Cash Flow])
+Runway Months = DIVIDE([Ending Cash], [Monthly Burn])
+
+Planned Headcount = SUM(headcount_monthly[planned_headcount])
+Actual Headcount = SUM(headcount_monthly[actual_headcount])
+Headcount Variance = [Actual Headcount] - [Planned Headcount]
+
+CAC Proxy = DIVIDE(CALCULATE(SUM(operating_expenses[actual]), operating_expenses[category] = "Marketing"), [New Customers])
+
+GRR = AVERAGE(saas_metrics[grr])
+NRR = AVERAGE(saas_metrics[nrr])
+CAC = AVERAGE(saas_metrics[cac])
+LTV = AVERAGE(saas_metrics[ltv])
+LTV / CAC = DIVIDE([LTV], [CAC])
+Deferred Revenue = MAX(integrated_statements[deferred_revenue])
+Billings = SUM(revenue_schedule[billings])
+Cash Collections = SUM(revenue_schedule[cash_collections])
+Forecast MAPE = AVERAGE(forecast_backtest[absolute_percentage_error])
+P05 Ending Cash = CALCULATE(MIN(monte_carlo_results[dec_ending_cash]), monte_carlo_results[simulation_id] <= 100)
+Probability Below $1M = AVERAGE(monte_carlo_results[below_1m])
+Probability Below Zero = AVERAGE(monte_carlo_results[below_zero])

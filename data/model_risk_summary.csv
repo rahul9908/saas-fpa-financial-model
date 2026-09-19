@@ -1,0 +1,7 @@
+metric,value
+P05 ending cash,451732.7197337442
+P50 ending cash,927302.8677371081
+P95 ending cash,1402008.8502900086
+Probability below $1M,0.597
+Probability below zero,0.001
+Revenue forecast MAPE,0.008751365915486625

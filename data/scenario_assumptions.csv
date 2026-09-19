@@ -1,0 +1,4 @@
+scenario,monthly_customer_growth,monthly_churn,price_multiplier,hiring_multiplier,marketing_multiplier,cloud_unit_cost_multiplier
+Base,0.045,0.018,1.0,1.0,1.0,1.0
+Upside,0.06,0.014,1.04,1.1,1.12,0.95
+Downside,0.025,0.026,0.97,0.75,0.82,1.12
