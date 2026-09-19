@@ -82,7 +82,7 @@ for(let r=5;r<=52;r++){
 }
 money(ws["Revenue Model"].getRange("F5:G52"));money(ws["Revenue Model"].getRange("J5:J52"));pct(ws["Revenue Model"].getRange("H5:I52"));ws["Revenue Model"].freezePanes.freezeRows(4);ws["Revenue Model"].getRange("A:K").format.columnWidth=16;
 
-// Graduate-level SaaS operating metrics and ARR waterfall.
+// Advanced SaaS operating metrics and ARR waterfall.
 title(ws["SaaS Metrics"],"SaaS unit economics","GRR, NRR, CAC, LTV, LTV/CAC, and gross margin by month");
 ws["SaaS Metrics"].getRange("A4:L4").values=[metrics[0]];header(ws["SaaS Metrics"].getRange("A4:L4"));ws["SaaS Metrics"].getRangeByIndexes(4,0,metrics.length-1,metrics[0].length).values=metrics.slice(1);
 ws["SaaS Metrics"].getRange("A5:A52").setNumberFormat("mmm-yy");money(ws["SaaS Metrics"].getRange("B5:F52"));pct(ws["SaaS Metrics"].getRange("G5:H52"));money(ws["SaaS Metrics"].getRange("I5:J52"));ws["SaaS Metrics"].getRange("K5:K52").setNumberFormat("0.0x");pct(ws["SaaS Metrics"].getRange("L5:L52"));ws["SaaS Metrics"].freezePanes.freezeRows(4);ws["SaaS Metrics"].getRange("A:L").format.columnWidth=16;

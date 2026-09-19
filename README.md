@@ -1,6 +1,6 @@
 # SaaS FP&A Control Tower
 
-Master-level SaaS financial planning, forecasting, unit economics, and liquidity-risk case study.
+SaaS financial planning, forecasting, unit economics, and liquidity-risk case study.
 
 [![Python](https://img.shields.io/badge/Python-Pandas%20%7C%20SQLite-3776AB?logo=python&logoColor=white)](build/generate_data.py)
 [![Excel](https://img.shields.io/badge/Excel-Driver--based%20model-217346?logo=microsoft-excel&logoColor=white)](deliverables/SaaS_FP%26A_Model_Masters.xlsx)
@@ -52,7 +52,7 @@ Recommended management actions are to identify the segments driving sub-100% NRR
 ## Deliverables
 
 - `deliverables/SaaS_FP&A_Model.xlsx`: linked financial model, scenario controls, sensitivities, checks, and dashboard-ready tables
-- `deliverables/SaaS_FP&A_Model_Masters.xlsx`: graduate-level extension with SaaS unit economics, ARR bridge, cohorts, integrated statements, forecast QA, and Monte Carlo liquidity risk
+- `deliverables/SaaS_FP&A_Model_Masters.xlsx`: extended model with SaaS unit economics, ARR bridge, cohorts, integrated statements, forecast QA, and Monte Carlo liquidity risk
 - `deliverables/SaaS_FP&A_Management_Deck.pptx`: management presentation
 - `deliverables/SaaS_FP&A_Management_Deck_Masters.pptx`: expanded management deck with cohort, unit-economics, and stochastic-risk analysis
 - `deliverables/Variance_Commentary_Report.docx`: AI-assisted draft commentary with a manual validation record
